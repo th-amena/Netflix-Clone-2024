@@ -1,0 +1,71 @@
+.footer-outer-container {
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+.footer-inner-container {
+
+    width: 60%;
+    /* background-color: red; */
+}
+
+.footer-icons {
+
+    /* background-color: blue; */
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-data ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 12vh;
+
+}
+
+.footer-data ul li {
+    cursor: pointer;
+}
+.service-code {
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: #fff 1px;
+    width: 20%;
+    /* padding: 10px; */
+    margin: 10px 0; 
+    cursor: pointer;
+    
+}
+
+.service-code button {
+
+   color: gray;
+background-color: black;
+.CopyrightOutlinedIcon {
+
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.copyright-info{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.copyright-info p{
+    margin: 10px 0;
+    font-size: 12px;
+}

@@ -1,0 +1,49 @@
+.header-outer-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+}
+.nav-black{
+    background-color: rgb(20, 20, 20);
+}
+
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left ul, .header-right ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-left li, .header-right li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.header-left li:first-child {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.header-right {
+
+    display: flex;
+    align-items: center;
+}
