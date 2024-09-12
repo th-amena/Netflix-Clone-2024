@@ -15,5 +15,5 @@ export default defineConfig({
       cors: true, // Enable CORS
    },
 
-   base: "/Netflix-Clone-2024/",
+   base: "/Netflix-Clone/",
 });

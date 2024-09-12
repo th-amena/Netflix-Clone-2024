@@ -34,6 +34,7 @@
 .header-left li, .header-right li {
     margin: 0 15px;
     cursor: pointer;
+    font-family:  Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
 .header-left li:first-child {
