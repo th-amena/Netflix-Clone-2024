@@ -6,15 +6,14 @@
 //   plugins: [react()],
 // })
 
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [react()],
-  server: {
-    cors: true // Enable CORS
-  },
+   plugins: [react()],
+   server: {
+      cors: true, // Enable CORS
+   },
 
-  base:"/netflix-clone/"
+   base: "/Netflix-Clone-2024/",
 });
