@@ -53,7 +53,7 @@ function Footer() {
                </div>
             </div>
             <div className="service-code">
-               <button>Service Code</button>
+               <p>Service Code</p>
             </div>
 
             <div className="copyright-info">

@@ -14,5 +14,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     cors: true // Enable CORS
-  }
+  },
+
+  base:"/netflix-clone/"
 });

@@ -11,7 +11,7 @@ function Banner() {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
-        const movies = request.data.results;
+        const movies = request?.data.results;
         //randomly diplay one image out of the total number fetched
         setMovie(movies[Math.floor(Math.random() * movies.length)]);
       } catch (error) {
@@ -19,6 +19,9 @@ function Banner() {
       }
     })();
   }, []);
+ // console.log(movie);
+ //truncate function takes string and number as an aregument 
+  
 
   function truncate(str, n) {
 
@@ -47,7 +50,8 @@ function Banner() {
         {/* Uncomment the below line and implement the truncate function if needed */}
         <h1 className='banner_description'>{truncate(movie?.overview, 150)}</h1>
       </div>
-      <div className='banner_fadeBottom' />
+      
+      <div className='banner_fadeBottom'></div>
     </header>
   );
 }

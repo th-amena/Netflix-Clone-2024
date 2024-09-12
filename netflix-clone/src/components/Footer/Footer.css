@@ -39,14 +39,20 @@
 .service-code {
 
     display: flex;
-    align-items: center;
-    justify-content: center; 
-    border: #fff 1px;
+    /* align-items: center;
+    justify-content: center;  */
+    
     width: 12%;
-    padding: 15px; 
     margin: 10px 0; 
     cursor: pointer;
     
+}
+
+.service-code p {
+border: #fff solid 2px;
+align-items: center;
+padding: 5px;
+
 }
 
 .service-code button {
