@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from '../../utils/axios'
+//axios calls baseURL 
 import requests from '../../utils/requests'
 import './Banner.css'
 
